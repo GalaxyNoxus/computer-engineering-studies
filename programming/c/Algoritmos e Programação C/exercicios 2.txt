@@ -1,0 +1,56 @@
+1. Calcular area do triangulo
+
+var
+   real Base,Altura,Soma;
+
+inicio
+   ler(Base,Altura);
+   Soma <- (Base*Altura)/2;
+   Escrever(Soma);
+fim
+
+
+
+
+2. Calcular média aritmética
+
+var
+   real a,b,c,soma
+
+inicio
+   ler(a,b,c);
+   soma <- (a+b+c)/3;
+   escrever(soma);
+fim
+
+
+
+
+3. Média ponderada
+
+var
+   real n1,n2,n3,p1,p2,p3,media
+
+inicio
+   ler(n1,n2,n3,p1,p2,p3)
+   media <- (n1*p1)+(n2*p2)+(n3*p3)/(p1+p2+p3)
+   escrever(media)
+fim
+
+
+
+
+4. Calcular salário
+
+var
+   real salario,calculo
+
+inicio
+   ler(salario)
+   calculo <- (salario*0,20)
+   escrever(calculo)
+fim
+
+
+
+
